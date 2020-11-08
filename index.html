@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music By Keys</title>
+    <link href="./sound.css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="container">
+        <div class="music-list" onclick="playSound('A')" id="1">
+            <audio id="A" src="./audio/clap.wav" autostart="false"></audio>
+            <p class="character">A</p>
+            <p class="para">CLAP</p>
+        </div>
+        
+        <div class="music-list" onclick="playSound('S')" id="2">
+            <audio id="S" src="./audio/hihat.wav" autostart="false"></audio>
+            <p class="character">S</p>
+            <p class="para">HIHAT</p>
+        </div>
+        
+        <div class="music-list" onclick="playSound('D')" id="3">
+            <audio id="D" src="./audio/kick.wav" autostart="false"></audio>
+            <p class="character">D</p>
+            <p class="para">KICK</p>    
+        </div>
+        
+        <div class="music-list" onclick="playSound('F')" id="4">
+               <audio id="F" src="./audio/openhat.wav" autostart="false"></audio>
+            <p class="character">F</p>
+            <p class="para">OPENHAT</p>
+        </div>
+        
+        <div class="music-list" onclick="playSound('G')" id="5">
+            <audio id="G" src="./audio/boom.wav" autostart="false"></audio>
+            <p class="character">G</p>
+            <p class="para">BOOM</p>
+        </div>
+        
+        <div class="music-list" onclick="playSound('H')" id="6">
+            <audio id="H" src="./audio/ride.wav" autostart="false"></audio>
+            <p class="character">H</p>
+            <p class="para">RIDE</p>
+        </div>
+        
+        <div class="music-list" onclick="playSound('J')" id="7">
+            <audio id="J" src="./audio/snare.wav" autostart="false"></audio>
+            <p class="character">J</p>
+            <p class="para">SNARE</p>
+        </div>
+        
+        <div class="music-list" onclick="playSound('K')" id="8">
+            <audio id="K" src="./audio/tom.wav" autostart="false"></audio>
+            <p class="character">K</p>
+            <p class="para">TOM</p>
+        </div>
+        
+        <div class="music-list" onclick="playSound('L')" id="9">
+            <audio id="L" src="./audio/tink.wav" autostart="false"></audio>
+            <p class="character">L</p>
+            <p class="para">TINK</p>
+        </div>
+    </div>
+
+    <script src="./sound.js"></script>
+</body>
+</html>
